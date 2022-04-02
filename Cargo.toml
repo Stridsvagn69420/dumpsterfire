@@ -2,7 +2,15 @@
 name = "dumpsterfire"
 version = "0.1.0"
 edition = "2021"
+description = "Ever wanted to torture your CPU by generating every image possible?"
+documentation = "https://github.com/Stridsvagn69420/dumpsterfire/wiki"
+readme = "README.md"
+repository = "https://github.com/Stridsvagn69420/dumpsterfire"
+license = "GPL-3.0"
+authors = [ "Stridsvagn69420" ]
+keywords = [ "rust", "image", "cpu", "generator", "dumpsterfire", "generator", "image-generator", "torture", "dumpster-fire" ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "3.1.8", features = ["derive"] }
