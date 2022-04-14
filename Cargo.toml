@@ -14,3 +14,4 @@ keywords = [ "rust", "image", "cpu", "generator", "dumpsterfire", "generator", "
 
 [dependencies]
 clap = { version = "3.1.8", features = ["derive"] }
+discord-rpc-client = "0.3.0"
